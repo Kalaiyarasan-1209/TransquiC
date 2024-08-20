@@ -1,0 +1,85 @@
+.terms-of-use-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.6;
+    text-align: left; /* Ensure all text starts from the left */
+  }
+  
+  .terms-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .terms-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .terms-header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .terms-intro,
+  .terms-use,
+  .terms-general {
+    margin-bottom: 50px;
+  }
+  
+  .terms-intro p,
+  .terms-use p,
+  .terms-general p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .terms-intro ul,
+  .terms-use ul,
+  .terms-general ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  .terms-intro ul li,
+  .terms-use ul li,
+  .terms-general ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .terms-intro ul li a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .terms-intro ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #007BFF;
+  }
+  
+  h3 {
+    font-size: 1.6em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

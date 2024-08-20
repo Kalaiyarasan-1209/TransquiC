@@ -1,0 +1,78 @@
+/* GeoCode.css */
+
+/* General styles */
+.paper {
+    width: 80%;
+    max-width: 1200px; /* Adjust to your needs */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Center the paper on the page */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  @media print {
+    /* Hide elements that should not be printed */
+    .no-print {
+      display: none;
+    }
+  
+    /* Ensure the map container has proper size for printing */
+    .map-container {
+      width: 100%; /* Full width for printing */
+      height: 500px; /* Set a fixed height for printing */
+    }
+  
+    .button-container {
+      display: none; /* Hide button on print */
+    }
+  
+    /* Ensure the body content is well formatted */
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      display: block; /* Ensure block layout for printing */
+    }
+  
+    .paper {
+      width: 100%; /* Full width for printing */
+      max-width: none; /* Remove max-width for printing */
+      box-shadow: none; /* Remove shadow for printing */
+    }
+  
+    h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+  }
+          

@@ -1,0 +1,65 @@
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    width: 90vw; /* Full viewport width */
+    background-color: #f4f4f4; /* Light background color for contrast */
+    text-align: center;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.review-title {
+    font-size: 48px; /* Adjust size as needed */
+    font-family: 'Baskervville SC', serif; /* Use a font from your import */
+    font-weight: 700;
+    color: #333; /* Dark color for text */
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.review-content {
+    max-width: 800px; /* Control the maximum width of content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
+    background: #fff; /* White background for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.rating {
+    font-size: 24px; /* Adjust as needed */
+    color: #333;
+}
+
+.rating-text {
+    font-size: 28px; /* Larger font for "EXCELLENT" */
+    margin-bottom: 10px;
+}
+
+.rating-stars {
+    font-size: 30px; /* Adjust star size */
+}
+
+.rating-info {
+    font-size: 20px;
+    color: #555; /* Slightly lighter color for additional info */
+}
+
+.rating-number {
+    font-size: 36px; /* Large font for rating number */
+    font-weight: bold;
+    color: #333;
+}
+
+.rating-max {
+    font-size: 24px;
+    color: #333;
+}
+
+.review-count {
+    display: block;
+    margin-top: 10px;
+}
